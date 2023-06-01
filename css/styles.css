@@ -45,6 +45,11 @@ header {
 .link {
     text-decoration: none;
 }
+.header-logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 156px;
+}
 .header-contact {
     font-style: normal;
 }
