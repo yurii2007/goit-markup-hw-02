@@ -60,3 +60,33 @@ header {
 .contact-link:focus {
     color: #404bbf
 }
+.main-box {
+    background-color: #2E2F42;
+    height: 600px;
+    align-items:flex-start;
+}
+.main-box-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.main-box-btn {
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+}
+.main-box-btn:hover,
+.main-box-btn:focus {
+    background-color: #404BBF;
+}
