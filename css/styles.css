@@ -1,12 +1,16 @@
 body {
-    color: #2E2F42;
-    font-family: 'Roboto', sans-serif
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+:root {
+    --primary-text-color: #434455;
 }
 header {
     width: 1440px;
     /*height: 72px; */
 }
-.header-menu {
+.list {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -15,18 +19,44 @@ header {
     list-style-type: none;
 } 
 .logo-part {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .logo {
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+}
+.list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.list-link:hover,
+:focus {
+    color: #404bbf
+}
+.link {
+    text-decoration: none;
+}
+.header-contact {
+    font-style: normal;
+}
+.contact-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf
 }
