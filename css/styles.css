@@ -40,7 +40,7 @@ body {
 .link {
     text-decoration: none;
 }
-address {
+.main-address {
     font-style: none;
 }
 .header-contact {
@@ -49,7 +49,6 @@ address {
 .contact-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -152,4 +151,31 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.nav-btn {
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
 }
