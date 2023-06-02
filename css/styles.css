@@ -2,16 +2,9 @@ body {
     color: #434455;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
-    width: 1440px;
 }
 :root {
     --primary-text-color: #434455;
-}
-header {
-    height: 72px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 .list {
     font-weight: 500;
@@ -21,10 +14,6 @@ header {
     color: #2E2F42;
     list-style-type: none;
 } 
-nav {
-    display: flex;
-    flex-direction: row;
-}
 .logo-part {
     color: #2E2F42;
 }
@@ -44,7 +33,6 @@ nav {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-right: 40px;
 }
 .list-link:hover,
 :focus {
@@ -53,25 +41,8 @@ nav {
 .link {
     text-decoration: none;
 }
-.header-logo {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-left: 156px;
-    margin-right: 76px;
-}
-.header-main-list {
-    display: flex;
-    flex-direction: row;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    gap: 40px;
-}
 .header-contact {
     font-style: normal;
-    display: flex;
-    flex-direction: row;
-    margin-right: 156px;
-    margin-top: 24px;
 }
 .contact-link {
     font-weight: 400;
@@ -80,7 +51,6 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 40px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -88,10 +58,6 @@ nav {
 }
 .main-box {
     background-color: #2E2F42;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
 }
 .main-box-title {
     font-weight: 700;
@@ -102,11 +68,6 @@ nav {
     color: #FFFFFF;
 }
 .main-box-btn {
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -118,14 +79,76 @@ nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    margin-top: 48px;
 }
 .main-box-btn:hover,
 .main-box-btn:focus {
     background-color: #404BBF;
+}
+.about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.about-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.benefits-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.our-team {
+    background-color: #F4F4FD;
+}
+.our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.our-team-item {
+    background-color: #FFFFFF;
+}
+.our-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.our-team-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo-part {
+    color: #f4f4fd;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
